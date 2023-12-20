@@ -8,3 +8,6 @@ Install/Use:
 WARNING/NOTE: Be careful not to stack any walls or other objects on top of each other, use different layer name for 2nd, 3rd "floor" of objects as that is recommended anyway when you need to fix something later on.
 4. Clear/delete old layer (make backup of course first) and import output.txt in the same empty layer to have cleaned up stuff ready.
 5. Enjoy optimised Arma3 project ;)
+
+Script was kindly made for Arma3 Community by Origin/Wolk
+/salute IceBreakr
