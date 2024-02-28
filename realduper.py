@@ -22,7 +22,7 @@ for row in rows:
 
 # Write output CSV file
 with open(output_file, 'w', newline='') as file:
-    writer = csv.writer(file, delimiter=";",quoting=csv.QUOTE_NONE, quotechar= '')
+    writer = csv.writer(file, delimiter=";",quoting=csv.QUOTE_NONE, quotechar= ' ')
     for row in unique_rows:
         row[0] = f'"{row[0]}"'  # Add double quotes to the first column
         writer.writerow(row)
